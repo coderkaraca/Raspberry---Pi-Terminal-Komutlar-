@@ -1,0 +1,14 @@
+# Raspberry-Pi / Terminal-Komutları
+
+sudo apt-get clean
+# Her güncelleme sonrası inidirilen ve /var/cache/apt/archives dizini altına kaydedilen .deb (debian package) uzantılı dosyaları temizler.
+
+sudo apt-get autoremove -y
+# Raspberry Pi'a paketler yükleyip kaldırdıkça bazı paketler kullanım dışı duruma düşebilir. Kullanılmayan gereksiz paketleri sistemden kaldırır.
+
+sudo service --status-all
+# Açılışta servislerin aktif / pasif durumlarını görüntüler.
+
+sudo apt-get install rcconf
+sudo rcconf
+# Açılış servisleri için ayar sayfası
